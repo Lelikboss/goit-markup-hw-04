@@ -23,7 +23,7 @@
     <header class="header">
       <div class="container">
         <nav class="navigation">
-          <a class="logo" href="./index.html"
+          <a class="logo" href="#"
             >Web<span class="logo-header">Studio</span></a
           >
           <ul class="list menu-list">
@@ -40,10 +40,20 @@
         </nav>
         <ul class="list contact-list">
           <li class="contact-item">
-            <a class="link" href="mailto:">info@devstudio.com</a>
+            <a class="link contact-link" href="mailto:info@devstudio.com">
+              <svg class="icon mail-icon" width="16" height="12">
+                <use href="./images/sprite.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
           <li class="contact-item">
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link contact-link" href="tel:+380961111111">
+              <svg class="icon phone-icon" width="10" height="16">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -186,6 +196,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container adress-footer">
+        <div class="footer-coordinates">
           <a class="logo logo-address" href="./index.html"
             >Web<span class="logo-footer">Studio</span></a
           >
@@ -195,10 +206,66 @@
               >info@example.com</a
             >
             <br />
-            <a class="link address-contacts address-tel" href="tel:+380991111111"
+            <a
+              class="link address-contacts address-tel"
+              href="tel:+380991111111"
               >+38 099 111 11 11</a
             >
           </address>
+        </div>
+        <div class="footer-social">
+          <h2 class="about-title footer-title">присоединяйтесь</h2>
+          <ul class="list social-icons">
+            <li class="social-icon">
+              <a
+                href=""
+                class="social-icon-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon">
+              <a
+                href=""
+                class="social-icon-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon">
+              <a
+                href=""
+                class="social-icon-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon">
+              <a
+                href=""
+                class="social-icon-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
