@@ -289,6 +289,8 @@ img{
 .team-content{
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 .team{
     background-color: var(--bg-filter-color);
@@ -364,8 +366,9 @@ img{
 .footer-coordinates{
     margin-right: 70px;
 }
-.adress-footer{
+.address-footer{
     display: flex;
+    align-items: baseline;
     padding-top: 60px;
     padding-bottom: 60px;
 }
